@@ -1,5 +1,7 @@
 # [nyc/issues#545](https://github.com/istanbuljs/nyc/issues/545)
 
+[![build status](https://travis-ci.org/joelmukuthu/nyc-istanbul-all-bug.svg?branch=master)](https://travis-ci.org/joelmukuthu/nyc-istanbul-all-bug)
+
 Repo for reproducing https://github.com/istanbuljs/nyc/issues/545. Clone, `npm
 install` then run `npm run coverage`.
 
