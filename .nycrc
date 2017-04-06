@@ -1,0 +1,15 @@
+{
+  "all": true,
+  "instrument": false,
+  "sourceMap": false,
+  "require": [
+    "babel-register"
+  ],
+  "include": [
+    "client",
+    "server"
+  ],
+  "exclude": [
+    "**/*.spec.js"
+  ]
+}

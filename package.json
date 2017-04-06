@@ -1,0 +1,24 @@
+{
+  "name": "nyc-istanbul-all-bug",
+  "version": "0.0.1",
+  "description": "Reproducing https://github.com/istanbuljs/nyc/issues/545",
+  "main": "index.js",
+  "scripts": {
+    "test:client": "cross-env BABEL_ENV=test mocha --require babel-register client/test",
+    "test:server": "mocha server/test",
+    "test": "npm-run-all --parallel test:server test:client",
+    "coverage": "cross-env BABEL_ENV=test nyc npm test"
+  },
+  "author": "Joel Mukuthu <joelmukuthu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "6.23.0",
+    "babel-plugin-istanbul": "4.1.1",
+    "babel-preset-env": "1.3.2",
+    "babel-register": "6.24.0",
+    "cross-env": "4.0.0",
+    "mocha": "3.2.0",
+    "npm-run-all": "4.0.2",
+    "nyc": "10.2.0"
+  }
+}
