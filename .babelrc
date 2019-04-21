@@ -1,9 +1,0 @@
-{
-  "only": ["client"],
-  "presets": ["env"],
-  "env": {
-    "test": {
-      "plugins": ["istanbul"]
-    }
-  }
-}
